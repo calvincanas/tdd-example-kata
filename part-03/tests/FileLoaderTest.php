@@ -1,8 +1,9 @@
 <?php
 
 use Example\FileLoader;
+use PHPUnit\Framework\TestCase;
 
-class FileLoaderTest extends PHPUnit_Framework_TestCase
+class FileLoaderTest extends TestCase
 {
     /**
      * First we need a way to retrieve markdown data

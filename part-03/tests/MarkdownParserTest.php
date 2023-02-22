@@ -1,8 +1,9 @@
 <?php
 
-use src\MarkdownParser;
+use Example\MarkdownParser;
+use PHPUnit\Framework\TestCase;
 
-class MarkdownParserTest extends PHPUnit_Framework_TestCase
+class MarkdownParserTest extends TestCase
 {
     public function testMarkdownParserCanBeCreated()
     {
