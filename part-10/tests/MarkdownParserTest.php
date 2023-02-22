@@ -1,6 +1,6 @@
 <?php
 
-use Example\MarkdownParser;
+use src\MarkdownParser;
 
 class MarkdownParserTest extends PHPUnit_Framework_TestCase
 {
