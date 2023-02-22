@@ -1,4 +1,4 @@
-# Test-Driven Development (TDD) Example
+# Test-Driven Development (TDD) Example By Dayle Reese
 
 > Writing tests before code sounds silly doesn't it? I'm going to show you how it can be useful!
 
