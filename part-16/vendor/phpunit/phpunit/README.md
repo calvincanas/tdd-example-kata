@@ -27,7 +27,10 @@ The following two commands (which you may have to run as `root`) are all that is
 To add PHPUnit as a local, per-project dependency to your project, simply add a dependency on `phpunit/phpunit` to your project's `composer.json` file. Here is a minimal example of a `composer.json` file that just defines a development-time dependency on PHPUnit 3.7:
 
     {
-        "require-dev": {
+        "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
             "phpunit/phpunit": "3.7.*"
         }
     }

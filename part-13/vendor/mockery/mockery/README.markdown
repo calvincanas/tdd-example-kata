@@ -53,7 +53,10 @@ suggested parameters below. While every effort is made to keep the master branch
 stable, you may prefer to use the current stable version tag instead.
 
     {
-        "require-dev": {
+        "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
             "mockery/mockery": "dev-master@dev"
         }
     }

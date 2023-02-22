@@ -311,7 +311,10 @@
             "phpunit/php-text-template": ">=1.1.1@stable",
             "phpunit/php-token-stream": ">=1.1.3@stable"
         },
-        "require-dev": {
+        "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
             "phpunit/phpunit": "3.7.*@dev"
         },
         "suggest": {
@@ -381,7 +384,10 @@
             "phpunit/phpunit-mock-objects": ">=1.2.0,<1.3.0",
             "symfony/yaml": ">=2.0,<3.0"
         },
-        "require-dev": {
+        "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
             "pear-pear/pear": "1.9.4"
         },
         "suggest": {
@@ -447,7 +453,10 @@
         "require": {
             "php": ">=5.3.2"
         },
-        "require-dev": {
+        "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
             "hamcrest/hamcrest": "1.1.0"
         },
         "time": "2013-04-01 12:13:17",
